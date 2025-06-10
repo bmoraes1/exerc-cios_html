@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(133, 166, 228);
+    padding: 16px 0;
+    color: rgb(26, 32, 61);
+}
+header .container {
+    display: flex;
+    align-items: 16px 0;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header li a {
+    color: rgb(20, 34, 63);
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+   /* height: 180px;*/
+   width: 100%;
+}
+.articles article {
+    width: 30%;
+}
+
+body {
+    background-color: rgb(243, 247, 247);
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px ;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: rgb(182, 214, 255);
+    color: rgb(34, 35, 51);
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section h2 {
+    font-size: 38px;
+}
